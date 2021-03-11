@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: salmon;
+    height: 100vh;
+}
+
+#colonne{
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(49, 49, 49);
+    color: white;
+    height: 100vh;
+    position: absolute;
+}
+tr{
+    background-color: mediumslateblue;
+    text-align: center;
+}
+td{
+   width: 500px;
+   height: 300px; 
+}
+table{
+    margin-left: 200px;
+}
+

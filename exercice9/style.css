@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-image:url(summer.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: white;
+}

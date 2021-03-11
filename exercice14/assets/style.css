@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: gold;
+}
+
+#personnages{
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+    justify-content: space-around;
+}
+.beatles{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 35%;
+}
+#banner{
+    width: 100%;
+    height: 500px;
+}
+#john{
+    background-color: green;
+    border-radius: 50%;
+}
+#paul{
+    background-color: purple;
+    border-radius: 50%;
+}
+#george{
+    background-color: orange;
+    border-radius: 50%;
+}
+#ringo{
+    background-color: red;
+    border-radius: 50%;
+}

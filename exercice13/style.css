@@ -1,0 +1,34 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#carre_ext{
+    border: 1px solid black;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+.carre{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+}
+
+.bleu{
+    background-color: blue;
+}
+
+.vert{
+    background-color: green;
+}
+
+.rouge{
+    background-color: red;
+}
